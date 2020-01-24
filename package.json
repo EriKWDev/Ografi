@@ -1,0 +1,27 @@
+{
+  "name": "Ografi",
+  "version": "0.0.1",
+  "description": "Ografi is a note-taking program with an intuitive and stylish interface with an immersive typing experience.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EriKWDev/Ografi.git"
+  },
+  "author": "ErikWDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EriKWDev/Ografi/issues"
+  },
+  "homepage": "https://github.com/EriKWDev/Ografi#readme",
+  "dependencies": {
+    "directory-tree": "^2.2.4",
+    "feather-icons": "^4.25.0",
+    "fs-extra": "^8.1.0"
+  },
+  "devDependencies": {
+    "electron": "^7.1.10"
+  }
+}

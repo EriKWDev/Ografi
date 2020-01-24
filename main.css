@@ -1,0 +1,63 @@
+:root {
+   --directory-tree-indent: 20px;
+
+	--theme-background: rgb(17, 17, 24);
+	--theme-background-lighter: rgb(33, 33, 46);
+	--theme-background-even-lighter: rgb(55, 55, 78);
+   --theme-color: rgb(204, 198, 221);
+}
+
+body {
+	margin: 0px;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+::-webkit-scrollbar-track {
+	border: none;
+	background-color: var(--theme-background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background-color: var(--theme-background-lighter);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: var(--theme-background-even-lighter);
+}
+
+#main-container {
+	margin: 0px;
+	padding: 0px;
+   height: calc(100vh - 40px);
+   width: 100%;
+}
+
+#directory-tree-container {
+   padding: 20px 0px;
+   width: 250px;
+   height: 100%;
+   background-color: var(--theme-background);
+   color: var(--theme-color);
+   overflow-y: scroll;
+}
+
+#directory-tree-container:hover ::-webkit-scrollbar-thumb {
+	background: var(--theme-background-lighter);
+}
+
+.directory-tree-node {
+   display: inline-flex;
+}
+
+.directory-tree-node-name {
+   display: flex;
+   justify-self: center;
+   margin: auto 5px;
+}
